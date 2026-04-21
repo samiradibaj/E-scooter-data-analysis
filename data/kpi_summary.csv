@@ -1,0 +1,21 @@
+,0
+total_rides,231868
+unique_riders,81923
+unique_scooters,2897
+total_revenue_eur,1223871.65
+avg_price_per_ride,5.27831201373195
+median_price_per_ride,4.81
+avg_duration_min,13.289888140946575
+median_duration_min,8.416667
+avg_distance_km,1.0185981247951421
+median_distance_km,0.66
+avg_speed_kmh,4.824742287171857
+avg_price_per_min,0.5555843366278194
+avg_rides_per_user,2.830316272597439
+avg_rides_per_scooter,80.03727994477045
+date_start,2019-06-21 12:26:02.530000
+date_end,2019-10-07 10:02:04.877000
+trivial_share_pct,11.970603964324528
+median_idle_minutes,241.0
+avg_idle_hours,19.911696750534638
+fleet_utilization_pct,0.6903468961394248
