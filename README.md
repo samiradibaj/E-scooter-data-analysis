@@ -32,7 +32,7 @@ e-scooter-data-analysis/
 | Avg rides / scooter | 80 |
 | Fleet utilisation | 0.7% of week-hours active |
 
-## Five questions, five SQL answers
+## Priliminary analysis
 
 All queries live in `/sql` and run against a cleaned `V_RIDES` view that drops "cancel-like" rides (distance < 0.05 km AND duration < 2 min; ~1.2% of rows).
 
@@ -42,7 +42,7 @@ All queries live in `/sql` and run against a cleaned `V_RIDES` view that drops "
 4. **Retention** (`04_rider_retention.sql`) - share of riders reaching the N-th ride, step-down conversion, acquisition-month cohort matrix, observed revenue per user.
 5. **Geographic** (`05_geographic.sql`) - 0.005° grid (~350m × 550m) start/end density, net-flow imbalance per cell, top origin→destination flows, idle-time hotspots.
 
-## Senior-DS analysis layered on top
+## Top-level analysis
 
 The notebook goes well beyond the five case questions:
 
