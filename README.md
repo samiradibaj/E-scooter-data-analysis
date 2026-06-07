@@ -4,17 +4,6 @@ End-to-end analysis of 231,868 shared e-scooter rides - from SQL cleaning on Sno
 
 The project is framed the way a senior data scientist on a shared-mobility / last-mile marketplace would actually work: ride KPIs, temporal patterns, rolling trends, retention cohorts, geospatial imbalance, fleet utilisation, experimentation plans, and a baseline forecast.
 
-## What's in the repo
-
-```
-e-scooter-data-analysis/
-├── sql/              Snowflake queries answering five standard case questions
-├── notebooks/        Full EDA notebook (figures, tables, narrative)
-├── data/             CSV aggregates exported from the notebook (ready for BI)
-├── figures/          Chart PNGs used in notebook and deck
-├── deck/             14-slide case deck (links to the built PPTX)
-└── docs/             Supporting notes
-```
 
 ## Headline numbers
 
